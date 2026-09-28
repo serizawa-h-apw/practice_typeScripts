@@ -1,0 +1,26 @@
+{
+  "name": "practice_typescripts",
+  "version": "1.0.0",
+  "description": "TypeScript practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && esbuild src/food-app/main.ts --bundle --format=iife --outfile=dist/food-app.js",
+    "watch": "esbuild src/food-app/main.ts --bundle --format=iife --outfile=dist/food-app.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seri-Haruto/practice_typeScripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Seri-Haruto/practice_typeScripts/issues"
+  },
+  "homepage": "https://github.com/Seri-Haruto/practice_typeScripts#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  }
+}
